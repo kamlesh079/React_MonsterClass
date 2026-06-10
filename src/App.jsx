@@ -1,8 +1,9 @@
-// change paths with different lessons to test them out
-import Lesson from './01-Types-Of-Components/componenets' 
+// ######### change paths with different lessons to test them out #########
+
+import Component from "./2. JSX/exercise/solution/WelcomeMessage";
 
 function App(){
-    return <Lesson />;
+    return <Component />
 }
 
 export default App;
