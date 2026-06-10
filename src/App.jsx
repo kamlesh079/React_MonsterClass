@@ -1,6 +1,6 @@
 // ######### change paths with different lessons to test them out #########
 
-import Component from "./2. JSX/exercise/solution/WelcomeMessage";
+import Component from "./05. Dynamic Content/live coding/Lesson";
 
 function App(){
     return <Component />
