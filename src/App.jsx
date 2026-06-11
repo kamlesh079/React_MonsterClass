@@ -1,9 +1,8 @@
-// ######### change paths with different lessons to test them out #########
+// ######### change paths with different lessons/solutions to test them out #########
 
-import Component from "./05. Dynamic Content/live coding/Lesson";
+import Component from "./12. Events/live coding/Lesson"; // change this path to test different components
 
 function App(){
     return <Component />
 }
-
 export default App;
