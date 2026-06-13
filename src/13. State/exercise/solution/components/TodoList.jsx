@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const TodoList = () => {
   // Initialize the state with an empty array

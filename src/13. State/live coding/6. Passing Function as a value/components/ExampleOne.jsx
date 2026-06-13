@@ -9,7 +9,9 @@ const ExampleOne = () => {
   });
 
   const increment = () => {
-    setCount((prevCount) => prevCount + 1);
+    setCount(count + 1);
+    // or
+    // setCount(preCount => preCount + 1);
   };
 
   return (

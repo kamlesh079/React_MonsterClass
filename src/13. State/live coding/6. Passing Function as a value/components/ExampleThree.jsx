@@ -7,11 +7,12 @@ const ExampleThree = () => {
     return savedName ? JSON.parse(savedName) : "";
   });
 
+
   // Update localStorage whenever the name changes
   useEffect(() => {
     localStorage.setItem("name", JSON.stringify(name));
   }, [name]);
-
+  
   const handleChange = (event) => {
     setName(event.target.value);
   };

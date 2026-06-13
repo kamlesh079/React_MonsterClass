@@ -1,14 +1,21 @@
 import { useState } from "react";
-import ComponentTwo from "./ComponentTwo";
-import ComponentOne from "./ComponentOne";
+import ComponentTwo from "./components/ComponentTwo";
+import ComponentOne from "./components/ComponentOne";
 
 const App = () => {
-  const [count, setCount] = useState(0);
+  const [count1, setCount1] = useState(0);
+  const [count2, setCount2] = useState(0);
 
   return (
     <section>
-      <ComponentOne count={count} onClickHandler={() => setCount(count + 1)} />
-      <ComponentTwo count={count} onClickHandler={() => setCount(count + 1)} />
+      <ComponentOne
+        count={count1}
+        onClickHandler={() => setCount1(count1 + 1)}
+      />
+      <ComponentTwo
+        count={count2}
+        onClickHandler={() => setCount2(count2 - 1)}
+      />
     </section>
   );
 };

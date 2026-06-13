@@ -16,6 +16,11 @@ const Profile = () => {
     }));
   };
 
+  // const handleChange = (e) =>{
+  //   const { name, value } = e.target;
+  //   setProfile({...Profile, [name]: value})
+  // } 
+
   return (
     <div>
       <h2>User Profile</h2>

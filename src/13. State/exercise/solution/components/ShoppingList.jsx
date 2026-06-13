@@ -19,7 +19,9 @@ const ShoppingList = () => {
     };
 
     // Update the state with the new item
-    setItems((prevItems) => [...prevItems, newItem]);
+    // setItems((prevItems) => [...prevItems, newItem]);
+    setItems([...items, newItem]);
+
 
     // Clear input fields
     setName("");

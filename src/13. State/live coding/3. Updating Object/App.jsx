@@ -10,15 +10,15 @@ const App = () => {
     // 🥂 To tell react about state updates, we have to give react a brand new object.
 
     // 👉 LONG WAY
-    // const copyMovie = {
-    //   // This will copy all the properties, into the new object, and then we can change whatever we want in new object.
-    //   ...movie,
-    //   ratings: 5,
-    // };
-    // setMovie(copyMovie);
+    const copyMovie = {
+      // This will copy all the properties, into the new object, and then we can change whatever we want in new object.
+      ...movie,
+      ratings: 5,
+    };
+    setMovie(copyMovie);
 
     // 👉 SHORT WAY
-    setMovie({ ...movie, ratings: 5 });
+    // setMovie({ ...movie, ratings: 5 });
   };
 
   return (

@@ -8,7 +8,7 @@ const App = () => {
 
   const handleClick = () => {
     setMovies(
-      movies.map((m) => (m.id === 1 ? { ...movies, title: "John Wick 4" } : m))
+      movies.map(m => (m.id == 1 ? {...movies, title:"Iron Man 2"} : m))
     );
   };
 
