@@ -9,7 +9,7 @@ const PopupContent = ({ copied }) => {
         </div>
       )}
     </section>,
-    document.querySelector("#portal-popup")
+    document.querySelector("#portal-popup") // this is the target element where the portal will render the content
   );
 };
 export default PopupContent;
